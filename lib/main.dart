@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_cart_bloc/Home/ui/home_screen.dart';
-import 'package:shopping_cart_bloc/service_locator.dart';
+import 'package:shopping_cart_bloc/DependencyInjection/service_locator.dart';
+import 'package:shopping_cart_bloc/Screens/Home/ui/home_screen.dart';
 
 void main() {
+  //mescp added
   setUpLocator();
   runApp(const MyApp());
 }
