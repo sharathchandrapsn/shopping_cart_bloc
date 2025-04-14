@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shopping_cart_bloc/Cart/bloc/cart_event.dart';
-import 'package:shopping_cart_bloc/Cart/bloc/cart_state.dart';
+import 'package:shopping_cart_bloc/Screens/Cart/bloc/cart_event.dart';
+import 'package:shopping_cart_bloc/Screens/Cart/bloc/cart_state.dart';
 import 'package:shopping_cart_bloc/Data/cart_data.dart';
 
 class CartBloc extends Bloc<CartEvent, CartState> {

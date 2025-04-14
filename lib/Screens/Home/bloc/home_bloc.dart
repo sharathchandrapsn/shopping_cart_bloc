@@ -3,9 +3,8 @@ import 'dart:async';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shopping_cart_bloc/Data/cart_data.dart';
 import 'package:shopping_cart_bloc/Data/wishlist_data.dart';
-import 'package:shopping_cart_bloc/Home/ui/product_item.dart';
 import 'package:shopping_cart_bloc/Models/product_model.dart';
-import 'package:shopping_cart_bloc/repository/home_repository.dart';
+import 'package:shopping_cart_bloc/Data/home_data.dart';
 
 part 'home_event.dart';
 part 'home_state.dart';

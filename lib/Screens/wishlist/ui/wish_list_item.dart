@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:shopping_cart_bloc/Models/product_model.dart';
-import 'package:shopping_cart_bloc/wishlist/bloc/wishlist_bloc.dart';
-import 'package:shopping_cart_bloc/wishlist/bloc/wishlist_event.dart';
+import 'package:shopping_cart_bloc/Screens/wishlist/bloc/wishlist_bloc.dart';
+import 'package:shopping_cart_bloc/Screens/wishlist/bloc/wishlist_event.dart';
 
 class WishListItem extends StatelessWidget {
   const WishListItem({

@@ -1,8 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:shopping_cart_bloc/Cart/bloc/cart_bloc.dart';
-import 'package:shopping_cart_bloc/Cart/bloc/cart_event.dart';
-import 'package:shopping_cart_bloc/Home/bloc/home_bloc.dart';
+import 'package:shopping_cart_bloc/Screens/Cart/bloc/cart_bloc.dart';
+import 'package:shopping_cart_bloc/Screens/Cart/bloc/cart_event.dart';
 import 'package:shopping_cart_bloc/Models/product_model.dart';
 
 class CartItem extends StatelessWidget {

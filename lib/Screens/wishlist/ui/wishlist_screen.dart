@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shopping_cart_bloc/wishlist/bloc/wishlist_bloc.dart';
-import 'package:shopping_cart_bloc/wishlist/bloc/wishlist_event.dart';
-import 'package:shopping_cart_bloc/wishlist/bloc/wishlist_state.dart';
-import 'package:shopping_cart_bloc/wishlist/ui/wish_list_item.dart';
+import 'package:shopping_cart_bloc/Screens/wishlist/bloc/wishlist_bloc.dart';
+import 'package:shopping_cart_bloc/Screens/wishlist/bloc/wishlist_event.dart';
+import 'package:shopping_cart_bloc/Screens/wishlist/bloc/wishlist_state.dart';
+import 'package:shopping_cart_bloc/Screens/wishlist/ui/wish_list_item.dart';
 
 class WishListScreen extends StatefulWidget {
   const WishListScreen({super.key});

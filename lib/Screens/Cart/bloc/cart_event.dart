@@ -1,4 +1,3 @@
-import 'package:shopping_cart_bloc/Cart/ui/cart_item.dart';
 import 'package:shopping_cart_bloc/Models/product_model.dart';
 
 abstract class CartEvent {}

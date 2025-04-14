@@ -1,12 +1,11 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shopping_cart_bloc/Cart/ui/cart_screen.dart';
-import 'package:shopping_cart_bloc/Home/bloc/home_bloc.dart';
-import 'package:shopping_cart_bloc/Home/ui/product_item.dart';
-import 'package:shopping_cart_bloc/repository/home_repository.dart';
-import 'package:shopping_cart_bloc/service_locator.dart';
-import 'package:shopping_cart_bloc/wishlist/ui/wishlist_screen.dart';
+import 'package:shopping_cart_bloc/Screens/Cart/ui/cart_screen.dart';
+import 'package:shopping_cart_bloc/Data/home_data.dart';
+import 'package:shopping_cart_bloc/DependencyInjection/service_locator.dart';
+import 'package:shopping_cart_bloc/Screens/Home/bloc/home_bloc.dart';
+import 'package:shopping_cart_bloc/Screens/Home/ui/product_item.dart';
+import 'package:shopping_cart_bloc/Screens/wishlist/ui/wishlist_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
